@@ -1,0 +1,10 @@
+@media screen and (max-width: 450px){
+  form{
+    font-size: 12px;
+  }
+
+  input{
+    max-width: 100px;
+    padding: 4px;
+  }
+}
