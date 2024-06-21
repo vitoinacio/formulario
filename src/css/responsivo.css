@@ -1,4 +1,9 @@
-@media screen and (max-width: 450px){
+@media screen and (max-width: 500px){
+
+  #container-form{
+    margin: 39% 5% 35% 5%;
+  }
+
   form{
     font-size: 12px;
   }
