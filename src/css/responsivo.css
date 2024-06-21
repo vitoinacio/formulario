@@ -8,3 +8,14 @@
     padding: 4px;
   }
 }
+
+@media screen and (max-width: 330px){
+  form{
+    font-size: 10px;
+  }
+
+  input{
+    max-width: 80px;
+    padding: 2px;
+  }
+}
