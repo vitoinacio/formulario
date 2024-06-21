@@ -1,4 +1,8 @@
 @media  screen and (max-width:800px){
+  #container-form{
+    margin: -5% 2% -5% 2%;
+  }
+  
   input{
     width: 200px;
     font-size: 14px;
