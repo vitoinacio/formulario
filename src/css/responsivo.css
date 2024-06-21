@@ -1,26 +1,40 @@
 @media screen and (max-width: 500px){
 
+
   #container-form{
-    margin: 39% 5% 35% 5%;
+    margin: 39% 2% 35% 2%;
+    max-height: 700px;
   }
 
+
+
   form{
-    font-size: 12px;
+    font-size: 14.5px;
   }
 
   input{
-    max-width: 100px;
-    padding: 4px;
+    display: block;
+    max-width: 300px;
+    padding: 5px;
+  }
+
+  label input[type="radio"]{
+    max-width: 20px;
+    display: inline;
+  }
+
+  .container-btn{
+    margin-top: 7px;
   }
 }
 
 @media screen and (max-width: 330px){
   form{
-    font-size: 10px;
+    font-size: 12px;
   }
 
   input{
-    max-width: 80px;
+    max-width: 150px;
     padding: 2px;
   }
 }
