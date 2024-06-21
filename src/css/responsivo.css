@@ -1,4 +1,11 @@
-@media screen and (max-width: 500px){
+@media  screen and (max-width:800px){
+  input{
+    width: 200px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 520px){
 
 
   #container-form{
@@ -14,7 +21,7 @@
 
   input{
     display: block;
-    max-width: 300px;
+    width: 200px;
     padding: 5px;
   }
 
@@ -28,13 +35,13 @@
   }
 }
 
-@media screen and (max-width: 330px){
+@media screen and (max-width: 360px){
   form{
     font-size: 12px;
   }
 
   input{
-    max-width: 150px;
+    width: 150px;
     padding: 2px;
   }
 }

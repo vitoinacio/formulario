@@ -43,13 +43,17 @@ label label {
 
 input{
   padding: 5px;
-  max-width: 300px;
+  width: 230px;
   border: 1px solid grey;
   border-radius: 10px;
 }
 
+input[type="date"]{
+  max-width: 130px;
+}
+
 label input[type="radio"]{
-  max-width: 20px;
+  width: 20px;
 }
 
 .container-btn{
