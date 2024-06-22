@@ -48,6 +48,14 @@ input{
   border-radius: 10px;
 }
 
+#nome, #nome-materno, #endereco{
+  text-transform: capitalize;
+}
+
+#login{
+  text-transform: uppercase;
+}
+
 input[type="date"]{
   max-width: 130px;
 }
